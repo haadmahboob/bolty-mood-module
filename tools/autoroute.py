@@ -31,7 +31,7 @@ def clear_tracks(board):
 def add_cutout_keepouts(board):
     for z in zones(board):
         if z.GetIsRuleArea() and z.GetZoneName().startswith("cutout_"):
-            board.Remove(z)
+            board.Delete(z)  # Remove() here crashes the next GetFootprints() call
     m = pcbnew.FromMM(KEEPOUT_MARGIN)
     for fp in board.GetFootprints():
         cuts = [g for g in fp.GraphicalItems() if g.GetLayer() == pcbnew.Edge_Cuts]

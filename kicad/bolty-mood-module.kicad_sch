@@ -2621,6 +2621,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc52cf9-6a25-5021-847b-ac5c05c87d07")
+		(property "Manufacturer" "Microchip"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ATTINY85-20SU"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "U1"
 			(at 50.8 44.45 0)
 			(effects
@@ -2993,6 +3011,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7da16b6c-0bb6-5ade-be97-d6fa1a53ebfb")
+		(property "Manufacturer" "Samsung"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C2"
 			(at 41.275 55.88 0)
 			(effects
@@ -3214,6 +3250,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "512debe5-85a6-56d3-8cfa-320986493748")
+		(property "Manufacturer" "Yageo"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "R1"
 			(at 109.22 57.15 0)
 			(effects
@@ -3381,6 +3435,24 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9ed6efdf-eb88-5b13-845e-9fc838a0bac5")
+		(property "Manufacturer" "Yageo"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "R4"
 			(at 121.92 57.15 0)
 			(effects
@@ -3548,6 +3620,24 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7d42e825-d22c-5235-8ee2-075d550bb8fe")
+		(property "Manufacturer" "Yageo"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "R5"
 			(at 134.62 57.15 0)
 			(effects
@@ -3715,6 +3805,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bdc9388-7021-5732-af74-130ebf50269e")
+		(property "Manufacturer" "Yageo"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07330RL"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "R3"
 			(at 147.32 57.15 0)
 			(effects
@@ -3828,6 +3936,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "450022db-78a6-5af7-8001-b5a8121d694f")
+		(property "Manufacturer" "JST"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B4B-PH-K-S(LF)(SN)"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "J1"
 			(at 182.88 53.34 0)
 			(effects
@@ -4099,6 +4225,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d31f8b0f-a0a3-593e-8365-24bd34d3e434")
+		(property "Manufacturer" "Samsung"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A106KAYNNNE"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C1"
 			(at 203.835 55.88 0)
 			(effects
@@ -4614,6 +4758,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2033d09-a1f8-5c69-81e7-75f837b40f5b")
+		(property "Manufacturer" "Yageo"
+			(at 27.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-071KL"
+			(at 27.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "R2"
 			(at 30.48 102.87 0)
 			(effects
@@ -4727,6 +4889,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d77913dd-567f-5f6a-92a5-a8c9229d7eb5")
+		(property "Manufacturer" "onsemi"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3904LT1G"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "Q1"
 			(at 55.88 102.235 0)
 			(effects
@@ -4922,6 +5102,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e88c7876-ac01-5360-9cc4-1170c9f401d7")
+		(property "Manufacturer" "Diodes Inc."
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1N4148W-7-F"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D13"
 			(at 83.82 101.6 0)
 			(effects
@@ -5088,6 +5286,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bbf6f31-9b1c-5e78-b56f-f002e75134a3")
+		(property "Manufacturer" "Same Sky"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CMT-8504-100-SMT-TR"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "BZ1"
 			(at 118.11 102.87 0)
 			(effects
@@ -5256,6 +5472,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "617713d6-2a2f-56d9-ad55-4eeb08841e3f")
+		(property "Manufacturer" "C&K"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PTS645SM43SMTR92 LFS"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "SW1"
 			(at 146.05 101.6 0)
 			(effects
@@ -5273,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -5767,6 +6001,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd973e8-dedc-5078-9c56-0f95b5ea2698")
+		(property "Manufacturer" "Adafruit"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D1"
 			(at 50.8 133.985 0)
 			(effects
@@ -6029,6 +6281,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4748c00-8e33-5595-bef6-1d796b14985e")
+		(property "Manufacturer" "Adafruit"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D2"
 			(at 73.66 133.985 0)
 			(effects
@@ -6269,6 +6539,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b79a503-72db-5390-a416-b00357ce0765")
+		(property "Manufacturer" "Adafruit"
+			(at 91.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 91.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D3"
 			(at 96.52 133.985 0)
 			(effects
@@ -6509,6 +6797,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c8141e-9290-5db3-ba40-d8c3f6887ec1")
+		(property "Manufacturer" "Adafruit"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D4"
 			(at 119.38 133.985 0)
 			(effects
@@ -6749,6 +7055,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8257eb78-7607-55cc-9914-262782fba91f")
+		(property "Manufacturer" "Adafruit"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D5"
 			(at 142.24 133.985 0)
 			(effects
@@ -6989,6 +7313,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a86c37c-001c-51c1-83d6-c04e525afb12")
+		(property "Manufacturer" "Adafruit"
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D6"
 			(at 165.1 133.985 0)
 			(effects
@@ -7240,6 +7582,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16ff10e4-1fb1-50e7-b589-ed9549653742")
+		(property "Manufacturer" "Adafruit"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D7"
 			(at 50.8 167.005 0)
 			(effects
@@ -7502,6 +7862,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cad2880f-3a21-5524-91d5-668c1b4e57ed")
+		(property "Manufacturer" "Adafruit"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D8"
 			(at 73.66 167.005 0)
 			(effects
@@ -7742,6 +8120,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa5c3b4c-19e4-5ca6-a317-bd563602ca73")
+		(property "Manufacturer" "Adafruit"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D9"
 			(at 96.52 167.005 0)
 			(effects
@@ -7982,6 +8378,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42751402-52a5-572d-ac7c-205e8aa890b3")
+		(property "Manufacturer" "Adafruit"
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D10"
 			(at 119.38 167.005 0)
 			(effects
@@ -8222,6 +8636,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa1390b3-d9ba-595a-8539-773be93efe5a")
+		(property "Manufacturer" "Adafruit"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D11"
 			(at 142.24 167.005 0)
 			(effects
@@ -8462,6 +8894,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a45b114e-b3e7-5ba5-889a-1c14e5a531f0")
+		(property "Manufacturer" "Adafruit"
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "4960"
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "D12"
 			(at 165.1 167.005 0)
 			(effects
@@ -8707,6 +9157,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c39f4ed-be08-52c4-a0d5-4b884879447f")
+		(property "Manufacturer" "Samsung"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C3"
 			(at 241.935 48.26 0)
 			(effects
@@ -8928,6 +9396,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce39e2e9-182c-562b-bb42-0001bf0ed1d5")
+		(property "Manufacturer" "Samsung"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C4"
 			(at 254.635 48.26 0)
 			(effects
@@ -9149,6 +9635,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a4a9633-62da-5eac-8c74-7f6e76fadd6a")
+		(property "Manufacturer" "Samsung"
+			(at 266.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 266.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C5"
 			(at 267.335 48.26 0)
 			(effects
@@ -9370,6 +9874,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d07d43d-997c-5c43-9101-636e980d0dd5")
+		(property "Manufacturer" "Samsung"
+			(at 279.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 279.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C6"
 			(at 280.035 48.26 0)
 			(effects
@@ -9591,6 +10113,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0807b8b3-9760-570a-a057-eeb088b0f717")
+		(property "Manufacturer" "Samsung"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C7"
 			(at 241.935 76.2 0)
 			(effects
@@ -9812,6 +10352,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a091bd1a-4766-5515-8d65-d0a5a2bfb59f")
+		(property "Manufacturer" "Samsung"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B104KB8NNNC"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Reference" "C8"
 			(at 254.635 76.2 0)
 			(effects

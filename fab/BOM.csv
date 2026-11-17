@@ -1,10 +1,10 @@
 Reference,Qty per board,Value,Package / Footprint,Manufacturer,MPN,LCSC,Buy link,Notes
 U1,1,ATtiny85-20SU,SOIC-8 (5.3 mm wide),Microchip,ATtiny85-20SU,,https://www.digikey.com/en/products/result?keywords=ATtiny85-20SU,Wide-body SOIC (208 mil) - not the narrow SN package
-D1-D12,12,SK6812MINI-E,3.2x2.8 mm reverse-mount,OPSCO,SK6812MINI-E,C5149201,https://www.lcsc.com/search?q=C5149201,Mounts on BACK and shines through the board hole. Buy 15+ (spares)
+D1-D12,12,SK6812MINI-E,3.2x2.8 mm reverse-mount,Adafruit (OPSCO LEDs),4960,C5149201,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512,10-pack of SK6812MINI-E (DigiKey 1528-4960-ND). Mounts on BACK and shines through the board hole
 Q1,1,MMBT3904,SOT-23,onsemi,MMBT3904LT1G,,https://www.digikey.com/en/products/result?keywords=MMBT3904LT1G,
 D13,1,1N4148W,SOD-123,Diodes Inc.,1N4148W-7-F,,https://www.digikey.com/en/products/result?keywords=1N4148W-7-F,Flyback diode across buzzer. Stripe = cathode = +5V side
 BZ1,1,Magnetic buzzer 5 V,8.5x8.5 mm SMD,Same Sky (CUI),CMT-8504-100-SMT-TR,,https://www.digikey.com/en/products/result?keywords=CMT-8504-100-SMT-TR,Externally driven (passive). Pad 1 +; pads 3/4 are dummy
-SW1,1,Tactile switch 6x6,6x6 mm SMD,HYP,1TS009A-1800-5000-CT,C319409,https://www.lcsc.com/search?q=C319409,Goes on the FRONT (face)
+SW1,1,Tactile switch 6x6,6x6 mm SMD,C&K,PTS645SM43SMTR92 LFS,,https://www.digikey.com/en/products/result?keywords=PTS645SM43SMTR92,Goes on the FRONT (face)
 J1,1,JST-PH 4-pin vertical,THT 2.0 mm,JST,B4B-PH-K-S(LF)(SN),,https://www.digikey.com/en/products/result?keywords=B4B-PH-K-S,Body on BACK; pins soldered from the front
 C1,1,10uF 10V+,0805,Samsung,CL21A106KAYNNNE,,https://www.digikey.com/en/products/result?keywords=CL21A106KAYNNNE,Bulk cap next to J1
 C2-C8,7,100nF,0603,Samsung,CL10B104KB8NNNC,,https://www.digikey.com/en/products/result?keywords=CL10B104KB8NNNC,C2 = ATtiny; C3-C8 = between each LED pair

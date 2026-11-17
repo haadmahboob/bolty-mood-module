@@ -48,3 +48,21 @@ a buzzer and a pat button, and listens to the main robot over I2C at address `0x
 
 ### Next
 Order the PCBs and parts, solder the board, program the ATtiny85 and test it (Build your PCB week).
+
+---
+
+## Entry 2: 8-Pin Grant prep (2026-11-17)
+
+**Time spent:** ___ h
+
+### What changed
+- **Button swapped:** the HYP 1TS009 switch is only sold on LCSC, but the grant orders from DigiKey/Mouser only.
+  Changed SW1 to the C&K **PTS645SM43SMTR92** (DigiKey, $0.36). Its 4 corner pads hit front-side SDA/BUZ tracks,
+  so the board was re-autorouted with Freerouting. DRC: 0 errors, 0 unconnected, 0 schematic mismatches.
+- **Part Number fields:** every part in the schematic and PCB now has `Manufacturer` + `Part Number` fields,
+  so the KiCad BOM export uploads straight into DigiKey.
+- **LEDs from DigiKey:** Adafruit 4960 = 10-pack of SK6812MINI-E for $2.95.
+- **Budget:** about $30 for parts for 2 boards + 3 OSH Park PCBs (`fab/grant-cost.md`). 3 boards would be about $39, over the $35 limit.
+- Firmware compile-checked with ATTinyCore: 4548 bytes flash (55%), 161 bytes RAM.
+- Made a 39 s progress reel (`reel/`).
+- The AI (Claude Code) did the part search, footprint swap, re-route and file exports; I chose to apply for 2 boards.

@@ -30,8 +30,9 @@ Everything you need is in this folder:
 ## 2. Order the parts
 
 Use `fab/BOM.csv`. Buy **spares**: +3 LEDs, +5 of each 0603 part. Tiny parts get lost.
-- LEDs (SK6812MINI-E, LCSC `C5149201`) and the switch (LCSC `C319409`) are easiest from LCSC (can ship with the JLCPCB order).
-- Everything else: DigiKey / Mouser / LCSC.
+- LEDs: Adafruit `4960` on DigiKey (10-pack of SK6812MINI-E), or LCSC `C5149201` for single LEDs.
+- Switch: C&K `PTS645SM43SMTR92 LFS` (DigiKey).
+- Everything is on DigiKey (the 8-pin grant only orders from DigiKey/Mouser + OSH Park). See `fab/grant-cost.md`.
 - **Don't buy R4/R5** unless your main robot has no I2C pull-ups (most Arduino/ESP boards do).
 - You also need: a JST-PH 4-pin cable, and a way to program: **USBasp** (~$5) *or* an **Arduino Uno** as "Arduino as ISP", plus a **2×3 pogo-pin clip** (2.54 mm) or 6 thin wires.
 

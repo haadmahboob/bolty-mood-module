@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Haad\\Buissness Ideas\\Neutrons\\bolty-mood-module\\kicad\\bolty-mood-module.kicad_sch")
-		(date "2026-11-16T15:27:48")
+		(date "2026-11-17T17:00:15")
 		(tool "Eeschema 10.0.8")
 		(sheet
 			(number "1")
@@ -61,6 +61,10 @@
 			(description "Buzzer, polarized")
 			(fields
 				(field
+					(name "Manufacturer") "Same Sky")
+				(field
+					(name "Part Number") "CMT-8504-100-SMT-TR")
+				(field
 					(name "Footprint") "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
 				(field
 					(name "Datasheet")
@@ -72,6 +76,14 @@
 				(lib "Device")
 				(part "Buzzer")
 				(description "Buzzer, polarized")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Same Sky")
+			)
+			(property
+				(name "Part Number")
+				(value "CMT-8504-100-SMT-TR")
 			)
 			(property
 				(name "Sheetname")
@@ -115,6 +127,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL21A106KAYNNNE")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -126,6 +142,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL21A106KAYNNNE")
 			)
 			(property
 				(name "Sheetname")
@@ -169,6 +193,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -180,6 +208,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -223,6 +259,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -234,6 +274,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -277,6 +325,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -288,6 +340,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -331,6 +391,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -342,6 +406,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -385,6 +457,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -396,6 +472,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -439,6 +523,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -450,6 +538,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -493,6 +589,10 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Part Number") "CL10B104KB8NNNC")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -504,6 +604,14 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Part Number")
+				(value "CL10B104KB8NNNC")
 			)
 			(property
 				(name "Sheetname")
@@ -548,6 +656,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -558,6 +670,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -608,6 +728,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -618,6 +742,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -668,6 +800,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -678,6 +814,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -728,6 +872,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -738,6 +886,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -788,6 +944,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -798,6 +958,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -848,6 +1016,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -858,6 +1030,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -908,6 +1088,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -918,6 +1102,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -968,6 +1160,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -978,6 +1174,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -1028,6 +1232,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -1038,6 +1246,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -1088,6 +1304,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -1098,6 +1318,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -1148,6 +1376,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -1158,6 +1390,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -1208,6 +1448,10 @@
 			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
 			(fields
 				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Part Number") "4960")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
@@ -1218,6 +1462,14 @@
 				(lib "Bolty")
 				(part "SK6812MINI-E")
 				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Part Number")
+				(value "4960")
 			)
 			(property
 				(name "Sheetname")
@@ -1268,6 +1520,10 @@
 			(description "75V 0.15A Fast Switching Diode, SOD-123")
 			(fields
 				(field
+					(name "Manufacturer") "Diodes Inc.")
+				(field
+					(name "Part Number") "1N4148W-7-F")
+				(field
 					(name "Footprint") "Diode_SMD:D_SOD-123")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
@@ -1278,6 +1534,14 @@
 				(lib "Diode")
 				(part "1N4148W")
 				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Inc.")
+			)
+			(property
+				(name "Part Number")
+				(value "1N4148W-7-F")
 			)
 			(property
 				(name "Sheetname")
@@ -1421,6 +1685,10 @@
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
+					(name "Manufacturer") "JST")
+				(field
+					(name "Part Number") "B4B-PH-K-S(LF)(SN)")
+				(field
 					(name "Footprint") "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -1432,6 +1700,14 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x04")
 				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JST")
+			)
+			(property
+				(name "Part Number")
+				(value "B4B-PH-K-S(LF)(SN)")
 			)
 			(property
 				(name "Sheetname")
@@ -1548,6 +1824,10 @@
 			(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
 			(fields
 				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "Part Number") "MMBT3904LT1G")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
@@ -1558,6 +1838,14 @@
 				(lib "Transistor_BJT")
 				(part "MMBT3904")
 				(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "Part Number")
+				(value "MMBT3904LT1G")
 			)
 			(property
 				(name "Sheetname")
@@ -1604,6 +1892,10 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Part Number") "RC0603FR-0710KL")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1615,6 +1907,14 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Part Number")
+				(value "RC0603FR-0710KL")
 			)
 			(property
 				(name "Sheetname")
@@ -1658,6 +1958,10 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Part Number") "RC0603FR-071KL")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1669,6 +1973,14 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Part Number")
+				(value "RC0603FR-071KL")
 			)
 			(property
 				(name "Sheetname")
@@ -1712,6 +2024,10 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Part Number") "RC0603FR-07330RL")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1723,6 +2039,14 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Part Number")
+				(value "RC0603FR-07330RL")
 			)
 			(property
 				(name "Sheetname")
@@ -1766,6 +2090,10 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Part Number") "RC0603FR-074K7L")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1777,6 +2105,14 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Part Number")
+				(value "RC0603FR-074K7L")
 			)
 			(property
 				(name "Sheetname")
@@ -1823,6 +2159,10 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Part Number") "RC0603FR-074K7L")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1834,6 +2174,14 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Part Number")
+				(value "RC0603FR-074K7L")
 			)
 			(property
 				(name "Sheetname")
@@ -1876,11 +2224,15 @@
 		(comp
 			(ref "SW1")
 			(value "Pat")
-			(footprint "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+			(footprint "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+					(name "Manufacturer") "C&K")
+				(field
+					(name "Part Number") "PTS645SM43SMTR92 LFS")
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92")
 				(field
 					(name "Datasheet")
 				)
@@ -1891,6 +2243,14 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Manufacturer")
+				(value "C&K")
+			)
+			(property
+				(name "Part Number")
+				(value "PTS645SM43SMTR92 LFS")
 			)
 			(property
 				(name "Sheetname")
@@ -1931,6 +2291,10 @@
 			(description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
 			(fields
 				(field
+					(name "Manufacturer") "Microchip")
+				(field
+					(name "Part Number") "ATTINY85-20SU")
+				(field
 					(name "Footprint") "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm")
 				(field
 					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
@@ -1941,6 +2305,14 @@
 				(lib "MCU_Microchip_ATtiny")
 				(part "ATtiny85-20S")
 				(description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Microchip")
+			)
+			(property
+				(name "Part Number")
+				(value "ATTINY85-20SU")
 			)
 			(property
 				(name "Sheetname")
