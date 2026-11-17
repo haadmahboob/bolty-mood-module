@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bolty Reel Recorder</title>
+<style>
+  body { margin:0; background:#000; color:#ddd; font-family:system-ui,sans-serif; display:flex; flex-direction:column; align-items:center; gap:8px; }
+  canvas { height:88vh; width:auto; }
+  #status { font-size:14px; padding:6px; }
+</style>
+</head>
+<body>
+<div id="status">loading…</div>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script>
+const W = 1080, H = 1920, PAD = 72, FPS = 30;
+const SLIDE_MS = 6500, FADE_MS = 500;
+const C = { bg:'#0d1117', fg:'#f0f3f6', muted:'#9aa4af', accent:'#4cc2ff', warn:'#ff7a59', ok:'#3fd17a' };
+const FONT = '"Segoe UI", system-ui, sans-serif';
+
+// h1 / p are arrays of [text, color] segments
+const SLIDES = [
+  { tag:'Hack Club · 2.5 h progress', h1:[['Bolty Mood Module']],
+    p:[['Robot face board: ATtiny85, 12 RGB LEDs, buzzer, pat button, I2C '],['0x42',C.ok]],
+    img:'5-3d-front-angle.png', dark:false },
+  { tag:'The plan', h1:[['Two rings of 6 LEDs on a 30 mm board']],
+    p:[['Schematic done first: ERC clean']], img:'1-schematic.png', dark:false },
+  { tag:'The problem', h1:[['Each LED footprint is '],['6.8 mm',C.warn],[' long']],
+    p:[['One ring needs ~18 mm, so two eyes = 36 mm. Doesn\'t fit in 30 mm. Even grids needed more area than 30 mm had.']],
+    img:'2-placement-unrouted-back.png', dark:false },
+  { tag:'Decision I reversed', h1:[['Rings → '],['3×2 grid eyes,',C.ok],[' 30 → '],['40 mm',C.ok]],
+    p:[['Everything fits on the back; the face stays clean']], img:'6-3d-back-angle.png', dark:true },
+  { tag:'Routed', h1:[['0',C.ok],[' unconnected · '],['0',C.ok],[' DRC errors']],
+    p:[['Autorouted with Freerouting, then fixed GND and cut-out clearances']], img:'3-routed-back.png', dark:false },
+  { tag:'Next', h1:[['Order the PCB → solder → program']],
+    p:[['Gerbers + BOM ready']], img:'4-routed-front-face.png', dark:false },
+];
+const TOTAL = SLIDE_MS * SLIDES.length;
+
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const st = document.getElementById('status');
+
+function loadImg(src) {
+  return new Promise((ok, bad) => { const i = new Image(); i.onload = () => ok(i); i.onerror = bad; i.src = src; });
+}
+
+// word-wrap colored segments; returns bottom y
+function drawRich(segs, x, y, maxW, size, lh, weight, defColor) {
+  g.font = `${weight} ${size}px ${FONT}`;
+  g.textBaseline = 'top';
+  const words = [];
+  for (const [t, col] of segs) {
+    t.split(/(\s+)/).forEach(w => { if (w) words.push([w, col || defColor]); });
+  }
+  let cx = x, cy = y;
+  for (const [w, col] of words) {
+    const ww = g.measureText(w).width;
+    if (/^\s+$/.test(w)) { if (cx > x) cx += ww; continue; }
+    if (cx + ww > x + maxW && cx > x) { cx = x; cy += lh; }
+    g.fillStyle = col; g.fillText(w, cx, cy); cx += ww;
+  }
+  return cy + lh;
+}
+
+function roundRect(x, y, w, h, r) {
+  g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+  g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+}
+
+function drawSlide(s, alpha) {
+  g.globalAlpha = alpha;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  g.font = `700 40px ${FONT}`; g.textBaseline = 'top'; g.fillStyle = C.accent;
+  g.fillText(s.tag.toUpperCase(), PAD, 130);
+  let y = drawRich(s.h1, PAD, 210, W - 2 * PAD, 88, 102, 700, C.fg) + 20;
+  y = drawRich(s.p, PAD, y, W - 2 * PAD, 48, 64, 400, C.muted) + 40;
+  const bx = PAD, bw = W - 2 * PAD, by = y, bh = H - 150 - y;
+  g.save(); roundRect(bx, by, bw, bh, 32); g.fillStyle = s.dark ? '#11161d' : '#ffffff'; g.fill(); g.clip();
+  const im = s.image, ip = 24;
+  const sc = Math.min((bw - 2 * ip) / im.width, (bh - 2 * ip) / im.height);
+  const iw = im.width * sc, ih = im.height * sc;
+  g.drawImage(im, bx + (bw - iw) / 2, by + (bh - ih) / 2, iw, ih);
+  g.restore();
+  g.globalAlpha = 1;
+}
+
+function frame(t) {
+  const i = Math.min(Math.floor(t / SLIDE_MS), SLIDES.length - 1);
+  const local = t - i * SLIDE_MS;
+  drawSlide(SLIDES[i], 1);
+  if (i > 0 && local < FADE_MS) drawSlide(SLIDES[i - 1], 1 - local / FADE_MS);   // crossfade from previous
+  if (i === 0 && local < FADE_MS) { g.fillStyle = `rgba(0,0,0,${1 - local / FADE_MS})`; g.fillRect(0, 0, W, H); }
+  g.fillStyle = C.accent; g.fillRect(0, H - 12, W * Math.min(t / TOTAL, 1), 12);
+}
+
+function pickType() {
+  const types = ['video/mp4;codecs=avc1.640028', 'video/mp4;codecs=avc1', 'video/mp4',
+                 'video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
+  return types.find(t => MediaRecorder.isTypeSupported(t));
+}
+
+// Frame clock runs in a Worker: background-tab timers on the main thread get throttled.
+const ticker = new Worker(URL.createObjectURL(new Blob(
+  [`setInterval(() => postMessage(0), ${1000 / FPS});`], { type: 'text/javascript' })));
+
+window.recordReel = async function (limitMs = TOTAL, name = 'bolty-reel') {
+  const type = pickType();
+  const ext = type.startsWith('video/mp4') ? 'mp4' : 'webm';
+  const stream = cv.captureStream(FPS);
+  const rec = new MediaRecorder(stream, { mimeType: type, videoBitsPerSecond: 8_000_000 });
+  const chunks = [];
+  rec.ondataavailable = e => e.data.size && chunks.push(e.data);
+  const done = new Promise(r => rec.onstop = r);
+  frame(0);
+  rec.start(1000);
+  const t0 = performance.now();
+  let frames = 0;
+  await new Promise(resolve => {
+    ticker.onmessage = () => {
+      const t = performance.now() - t0;
+      frame(Math.min(t, TOTAL)); frames++;
+      st.textContent = `recording ${(t / 1000).toFixed(1)} / ${limitMs / 1000} s (${type})`;
+      if (t >= limitMs + 300) { ticker.onmessage = null; resolve(); }
+    };
+  });
+  rec.stop(); await done;
+  const blob = new Blob(chunks, { type });
+  st.textContent = `uploading ${(blob.size / 1e6).toFixed(1)} MB…`;
+  const r = await fetch(`/upload?name=${name}.${ext}`, { method: 'POST', body: blob });
+  const msg = await r.text();
+  st.textContent = msg;
+  return { type, size: blob.size, frames, secs: (performance.now() - t0) / 1000, msg };
+};
+
+Promise.all(SLIDES.map(s => loadImg(s.img).then(i => s.image = i))).then(() => {
+  frame(0);
+  st.textContent = 'ready: ' + pickType();
+  window.reelReady = true;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bolty Reel</title>
+<style>
+  :root { --bg:#0d1117; --fg:#f0f3f6; --muted:#9aa4af; --accent:#4cc2ff; --warn:#ff7a59; --ok:#3fd17a; }
+  * { box-sizing:border-box; margin:0; }
+  html,body { height:100%; background:#000; color:var(--fg); font-family:system-ui,"Segoe UI",sans-serif; }
+  #stage { position:absolute; inset:0; margin:auto; height:100vh; aspect-ratio:9/16; max-width:100vw;
+           background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
+  .slide { position:absolute; inset:0; display:flex; flex-direction:column; padding:6% 6% 9%;
+           opacity:0; transition:opacity .6s ease; }
+  .slide.on { opacity:1; }
+  .tag { font-size:clamp(12px,2.2vh,20px); letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:700; }
+  h1 { font-size:clamp(22px,4.6vh,48px); line-height:1.12; margin:.4em 0 .5em; }
+  p  { font-size:clamp(14px,2.6vh,26px); line-height:1.35; color:var(--muted); }
+  b.warn { color:var(--warn); } b.ok { color:var(--ok); }
+  .img { flex:1; min-height:0; display:flex; align-items:center; justify-content:center; margin-top:4%;
+         border-radius:16px; background:#fff; overflow:hidden; }
+  .img.dark { background:#11161d; }
+  .img img { max-width:100%; max-height:100%; object-fit:contain; }
+  #bar { position:absolute; left:0; bottom:0; height:6px; background:var(--accent); width:0; }
+  #start { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+           gap:12px; background:rgba(13,17,23,.92); z-index:5; cursor:pointer; text-align:center; padding:8%; }
+  #start h2 { font-size:clamp(20px,3.6vh,36px); }
+  #start p { font-size:clamp(13px,2vh,18px); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <section class="slide">
+    <div class="tag">Hack Club · 2.5 h progress</div>
+    <h1>Bolty Mood Module</h1>
+    <p>Robot face board: ATtiny85, 12 RGB LEDs, buzzer, pat button, I2C <b class="ok">0x42</b></p>
+    <div class="img"><img src="5-3d-front-angle.png" alt="3D view of the board face"></div>
+  </section>
+  <section class="slide">
+    <div class="tag">The plan</div>
+    <h1>Two rings of 6 LEDs on a 30 mm board</h1>
+    <p>Schematic done first: ERC clean</p>
+    <div class="img"><img src="1-schematic.png" alt="Schematic"></div>
+  </section>
+  <section class="slide">
+    <div class="tag">The problem</div>
+    <h1>Each LED footprint is <b class="warn">6.8 mm</b> long</h1>
+    <p>One ring needs ~18 mm → two eyes = 36 mm. Doesn't fit in 30 mm. Even grids needed more area than 30 mm had.</p>
+    <div class="img"><img src="2-placement-unrouted-back.png" alt="Parts placed before routing"></div>
+  </section>
+  <section class="slide">
+    <div class="tag">Decision I reversed</div>
+    <h1>Rings → <b class="ok">3×2 grid eyes</b>, 30 → <b class="ok">40 mm</b></h1>
+    <p>Everything fits on the back; the face stays clean</p>
+    <div class="img dark"><img src="6-3d-back-angle.png" alt="3D view of the back"></div>
+  </section>
+  <section class="slide">
+    <div class="tag">Routed</div>
+    <h1><b class="ok">0</b> unconnected · <b class="ok">0</b> DRC errors</h1>
+    <p>Autorouted with Freerouting, then fixed GND and cut-out clearances</p>
+    <div class="img"><img src="3-routed-back.png" alt="Routed back side"></div>
+  </section>
+  <section class="slide">
+    <div class="tag">Next</div>
+    <h1>Order the PCB → solder → program</h1>
+    <p>Gerbers + BOM ready</p>
+    <div class="img"><img src="4-routed-front-face.png" alt="Board face"></div>
+  </section>
+  <div id="bar"></div>
+  <div id="start">
+    <h2>Click to start (40 s)</h2>
+    <p>Start your recording first, then click. Press F11 for fullscreen.</p>
+  </div>
+</div>
+<script>
+  const slides = [...document.querySelectorAll('.slide')];
+  const SLIDE_MS = 6500, TOTAL = SLIDE_MS * slides.length;
+  const bar = document.getElementById('bar');
+  slides[0].classList.add('on');
+  document.getElementById('start').addEventListener('click', e => {
+    e.currentTarget.remove();
+    const t0 = performance.now();
+    let cur = 0;
+    (function tick(now) {
+      const t = Math.min(now - t0, TOTAL);
+      const i = Math.min(Math.floor(t / SLIDE_MS), slides.length - 1);
+      if (i !== cur) { slides[cur].classList.remove('on'); slides[i].classList.add('on'); cur = i; }
+      bar.style.width = (100 * t / TOTAL) + '%';
+      if (t < TOTAL) requestAnimationFrame(tick);
+    })(t0);
+  });
+</script>
+</body>
+</html>

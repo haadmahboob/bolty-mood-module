@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Bolty")(type "KiCad")(uri "${KIPRJMOD}/Bolty.pretty")(options "")(descr "Bolty project footprints"))
+)

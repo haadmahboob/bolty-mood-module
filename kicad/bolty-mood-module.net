@@ -1,0 +1,3177 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Haad\\Buissness Ideas\\Neutrons\\bolty-mood-module\\kicad\\bolty-mood-module.kicad_sch")
+		(date "2026-11-16T15:27:48")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Bolty Mood Module")
+				(company)
+				(rev "0.1")
+				(date "2026-11-15")
+				(source "bolty-mood-module.kicad_sch")
+				(comment
+					(number "1")
+					(value "Round 40 mm, 2-layer. ATtiny85 + 12x SK6812MINI-E + buzzer + button")
+				)
+				(comment
+					(number "2")
+					(value "I2C slave at 0x42 via JST-PH 4-pin (GND, +5V, SCL, SDA)")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BZ1")
+			(value "CMT-8504-100-SMT")
+			(footprint "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
+			(description "Buzzer, polarized")
+			(fields
+				(field
+					(name "Footprint") "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buzzer, polarized")
+			)
+			(libsource
+				(lib "Device")
+				(part "Buzzer")
+				(description "Buzzer, polarized")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "quartz resonator ceramic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*Buzzer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bbf6f31-9b1c-5e78-b56f-f002e75134a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10u")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d31f8b0f-a0a3-593e-8365-24bd34d3e434")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7da16b6c-0bb6-5ade-be97-d6fa1a53ebfb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c39f4ed-be08-52c4-a0d5-4b884879447f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ce39e2e9-182c-562b-bb42-0001bf0ed1d5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a4a9633-62da-5eac-8c74-7f6e76fadd6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9d07d43d-997c-5c43-9101-636e980d0dd5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0807b8b3-9760-570a-a057-eeb088b0f717")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a091bd1a-4766-5515-8d65-d0a5a2bfb59f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3cd973e8-dedc-5078-9c56-0f95b5ea2698")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f4748c00-8e33-5595-bef6-1d796b14985e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2b79a503-72db-5390-a416-b00357ce0765")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d9c8141e-9290-5db3-ba40-d8c3f6887ec1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8257eb78-7607-55cc-9914-262782fba91f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a86c37c-001c-51c1-83d6-c04e525afb12")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "16ff10e4-1fb1-50e7-b589-ed9549653742")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cad2880f-3a21-5524-91d5-668c1b4e57ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa5c3b4c-19e4-5ca6-a317-bd563602ca73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D10")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "42751402-52a5-572d-ac7c-205e8aa890b3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa1390b3-d9ba-595a-8539-773be93efe5a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D12")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(libsource
+				(lib "Bolty")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel Mini addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*SK6812MINI*E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a45b114e-b3e7-5ba5-889a-1c14e5a531f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D13")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e88c7876-ac01-5360-9cc4-1170c9f401d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M2")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71fc5601-6152-5392-8587-168d18616981")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M2")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c1afd26f-00b7-53b0-933e-ec2f72536df2")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "I2C (JST-PH 4)")
+			(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "450022db-78a6-5af7-8001-b5a8121d694f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "ISP")
+			(footprint "Bolty:ISP_Pads_2x3_P2.54mm")
+			(description "Atmel 6-pin ISP connector")
+			(fields
+				(field
+					(name "Footprint") "Bolty:ISP_Pads_2x3_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Atmel 6-pin ISP connector")
+			)
+			(libsource
+				(lib "Connector")
+				(part "AVR-ISP-6")
+				(description "Atmel 6-pin ISP connector")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "AVR ISP Connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "IDC?Header*2x03* Pin?Header*2x03*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06f9eb92-3daa-54e6-a8df-7f5fcaedca78")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "MMBT3904")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
+			(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
+				(field
+					(name "Description") "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_BJT")
+				(part "MMBT3904")
+				(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NPN Transistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d77913dd-567f-5f6a-92a5-a8c9229d7eb5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "512debe5-85a6-56d3-8cfa-320986493748")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f2033d09-a1f8-5c69-81e7-75f837b40f5b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "330")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bdc9388-7021-5732-af74-130ebf50269e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ed6efdf-eb88-5b13-845e-9fc838a0bac5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d42e825-d22c-5235-8ee2-075d550bb8fe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "Pat")
+			(footprint "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "617713d6-2a2f-56d9-ad55-4eeb08841e3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ATtiny85-20SU")
+			(footprint "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm")
+			(datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
+			(description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
+				(field
+					(name "Description") "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			)
+			(libsource
+				(lib "MCU_Microchip_ATtiny")
+				(part "ATtiny85-20S")
+				(description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "bolty-mood-module")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bolty-mood-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "AVR 8bit Microcontroller tinyAVR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*SOIC*5.3x5.3mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abc52cf9-6a25-5021-847b-ac5c05c87d07")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Bolty")
+			(part "SK6812MINI-E")
+			(description "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			(docs "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(footprints
+				(fp "LED*SK6812MINI*E*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "SK6812MINI-E")
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated driver, reverse-mount, 3.2x2.8 mm")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DIN")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "AVR-ISP-6")
+			(description "Atmel 6-pin ISP connector")
+			(footprints
+				(fp "IDC?Header*2x03*")
+				(fp "Pin?Header*2x03*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "AVR-ISP-6")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Atmel 6-pin ISP connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MISO")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SCK")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "~{RST}")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Buzzer")
+			(description "Buzzer, polarized")
+			(footprints
+				(fp "*Buzzer*")
+			)
+			(fields
+				(field
+					(name "Reference") "BZ")
+				(field
+					(name "Value") "Buzzer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buzzer, polarized")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "1N4148W")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(docs "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(footprints
+				(fp "D*SOD?123*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "MCU_Microchip_ATtiny")
+			(part "ATtiny85-20S")
+			(description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			(docs "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
+			(footprints
+				(fp "*SOIC*5.3x5.3mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ATtiny85-20S")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
+				(field
+					(name "Description") "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{RESET}/PB5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "XTAL1/PB3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "XTAL2/PB4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "AREF/PB0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "PB1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "PB2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_BJT")
+			(part "MMBT3904")
+			(description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+			(docs "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "MMBT3904")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf")
+				(field
+					(name "Description") "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23")
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=B 2=E 3=C")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "E")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Bolty")
+			(uri "${KIPRJMOD}/Bolty.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Diode")
+			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "MCU_Microchip_ATtiny")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_Microchip_ATtiny.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "Transistor_BJT")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_BJT.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Power,Default")
+			(node
+				(ref "BZ1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D10")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D12")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D13")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/BTN")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "XTAL1/PB3_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/BUZ")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "XTAL2/PB4_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/BUZ_N")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D13")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/EYE_LINK")
+			(class "Default")
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D7")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "/LED_DIN")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/LED_RAW")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "MISO_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "PB1_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/Q1_B")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/RST")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "~{RST}_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "~{RESET}/PB5_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "SCK_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "PB2_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "MOSI_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "AREF/PB0_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "GND")
+			(class "Power,Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D10")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D11")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D12")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D2")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D3")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D4")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D5")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D6")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D7")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D8")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D9")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(D1-DOUT)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D2")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(D2-DOUT)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D3")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(D3-DOUT)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D4")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(D4-DOUT)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D5")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(D5-DOUT)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D6")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(D7-DOUT)")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D8")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(D8-DOUT)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D9")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(D10-DIN)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "D9")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(D10-DOUT)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D11")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(D11-DOUT)")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D12")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(D12-DOUT-Pad2)")
+			(class "Default")
+			(node
+				(ref "D12")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output+no_connect")
+			)
+		)
+	)
+)

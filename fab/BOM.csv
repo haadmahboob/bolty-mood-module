@@ -1,0 +1,18 @@
+Reference,Qty per board,Value,Package / Footprint,Manufacturer,MPN,LCSC,Buy link,Notes
+U1,1,ATtiny85-20SU,SOIC-8 (5.3 mm wide),Microchip,ATtiny85-20SU,,https://www.digikey.com/en/products/result?keywords=ATtiny85-20SU,Wide-body SOIC (208 mil) - not the narrow SN package
+D1-D12,12,SK6812MINI-E,3.2x2.8 mm reverse-mount,OPSCO,SK6812MINI-E,C5149201,https://www.lcsc.com/search?q=C5149201,Mounts on BACK and shines through the board hole. Buy 15+ (spares)
+Q1,1,MMBT3904,SOT-23,onsemi,MMBT3904LT1G,,https://www.digikey.com/en/products/result?keywords=MMBT3904LT1G,
+D13,1,1N4148W,SOD-123,Diodes Inc.,1N4148W-7-F,,https://www.digikey.com/en/products/result?keywords=1N4148W-7-F,Flyback diode across buzzer. Stripe = cathode = +5V side
+BZ1,1,Magnetic buzzer 5 V,8.5x8.5 mm SMD,Same Sky (CUI),CMT-8504-100-SMT-TR,,https://www.digikey.com/en/products/result?keywords=CMT-8504-100-SMT-TR,Externally driven (passive). Pad 1 +; pads 3/4 are dummy
+SW1,1,Tactile switch 6x6,6x6 mm SMD,HYP,1TS009A-1800-5000-CT,C319409,https://www.lcsc.com/search?q=C319409,Goes on the FRONT (face)
+J1,1,JST-PH 4-pin vertical,THT 2.0 mm,JST,B4B-PH-K-S(LF)(SN),,https://www.digikey.com/en/products/result?keywords=B4B-PH-K-S,Body on BACK; pins soldered from the front
+C1,1,10uF 10V+,0805,Samsung,CL21A106KAYNNNE,,https://www.digikey.com/en/products/result?keywords=CL21A106KAYNNNE,Bulk cap next to J1
+C2-C8,7,100nF,0603,Samsung,CL10B104KB8NNNC,,https://www.digikey.com/en/products/result?keywords=CL10B104KB8NNNC,C2 = ATtiny; C3-C8 = between each LED pair
+R1,1,10k,0603,Yageo,RC0603FR-0710KL,,https://www.digikey.com/en/products/result?keywords=RC0603FR-0710KL,RESET pull-up
+R2,1,1k,0603,Yageo,RC0603FR-071KL,,https://www.digikey.com/en/products/result?keywords=RC0603FR-071KL,Q1 base
+R3,1,330R,0603,Yageo,RC0603FR-07330RL,,https://www.digikey.com/en/products/result?keywords=RC0603FR-07330RL,LED data series resistor
+R4-R5,0,4.7k (DNP),0603,Yageo,RC0603FR-074K7L,,https://www.digikey.com/en/products/result?keywords=RC0603FR-074K7L,Do Not Place - fit only if the main robot has no I2C pull-ups
+H1-H2,0,M2 hole,2.2 mm NPTH,,,,,Holes in the PCB - no part
+PCB,1,40 mm round 2-layer,1.6 mm FR-4,JLCPCB / OSH Park,,,https://jlcpcb.com,Upload fab/bolty-mood-module-gerbers.zip
+Cable,1,JST-PH 4-pin cable,2.0 mm,,,,https://www.digikey.com/en/products/result?keywords=JST%20PH%204%20pin%20cable,To the main Bolty controller
+Programmer,1,USBasp or Arduino Uno (as ISP),,,,,,Plus a 2x3 2.54 mm pogo-pin clip OR 6 hand-held pogo pins; or solder 6 thin wires temporarily
